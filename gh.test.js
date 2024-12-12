@@ -1,4 +1,5 @@
 let page;
+jest.setTimeout(60000);
 
 beforeEach(async () => {
   page = await browser.newPage();
